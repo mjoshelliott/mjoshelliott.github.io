@@ -3375,8 +3375,8 @@ button::-moz-focus-inner {
   -ms-transform: translateY(-50%) translateX(-50%);
   -o-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
-  max-height: 75%;
-  max-width: 75%;
+  max-height: 85%;
+  max-width: 85%;
 }
 
 .clearing-caption {
