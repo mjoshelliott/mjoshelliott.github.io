@@ -9825,6 +9825,7 @@ body {
 /* line 129, ../scss/app.scss */
 .anchor {
   font-size: 22px;
+  font-weight: bold;
   color: #454545;
   line-height: 1.4;
   margin-bottom: 0.5rem !important;
@@ -9869,7 +9870,7 @@ body {
 /* line 170, ../scss/app.scss */
 .introtext {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     color: #ECECEC;
     line-height: 1.2;
     letter-spacing: .02em;
@@ -9898,7 +9899,7 @@ button, .button {
 
 /* line 196, ../scss/app.scss */
 button, .button:hover {
-  border-radius: 30px;
+  border-radius: 0px;
   color: #e2e2e2;
   background-color: #62696a;
   transition: all .4s ease-in-out;
