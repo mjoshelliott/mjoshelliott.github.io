@@ -9898,6 +9898,7 @@ button, .button {
 
 /* line 196, ../scss/app.scss */
 button, .button:hover {
+  border-radius: 30px;
   color: #e2e2e2;
   background-color: #62696a;
   transition: all .4s ease-in-out;
