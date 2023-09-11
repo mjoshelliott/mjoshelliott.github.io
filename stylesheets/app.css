@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:,300,400,700,400italic,700italic);
-/* line 431, ../bower_components/foundation/scss/foundation/components/_global.scss */
-meta.foundation-version {
-  font-family: "/5.5.3/";
-}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap');
 
 /* line 435, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
@@ -88,7 +86,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
