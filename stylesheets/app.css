@@ -1,6 +1,7 @@
-
-
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap');
+</style>
+
 
 /* line 435, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
@@ -1705,7 +1706,7 @@ select {
   background: #EFEFEF;
   color: #222222;
   display: block;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -2416,7 +2417,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -5145,7 +5146,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   display: inline-block;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -5709,7 +5710,7 @@ ul.pagination li {
 .pricing-table .title {
   background-color: #333333;
   color: #EEEEEE;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -5719,7 +5720,7 @@ ul.pagination li {
 .pricing-table .price {
   background-color: #F6F6F6;
   color: #333333;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -6115,7 +6116,7 @@ ul.pagination li {
 /* line 118, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav {
   display: block;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -6146,7 +6147,7 @@ ul.pagination li {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
 }
 /* line 97, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -6332,7 +6333,7 @@ ul.pagination li {
 .sub-nav li {
   color: #999999;
   float: left;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   margin-left: 1rem;
@@ -6615,7 +6616,7 @@ table tr td {
   display: block;
   background-color: #EFEFEF;
   color: #222222;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
 }
@@ -7070,7 +7071,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: #FFFFFF;
   display: block;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   padding-left: 0.9375rem;
@@ -7943,7 +7944,7 @@ p aside {
 /* line 255, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -9817,13 +9818,13 @@ body {
 /* line 123, ../scss/app.scss */
 .spotcolor {
   color: white;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* line 129, ../scss/app.scss */
 .anchor {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 500;
   color: #454545;
   line-height: 1.4;
   margin-bottom: 0.5rem !important;
@@ -9841,7 +9842,7 @@ body {
 /* line 145, ../scss/app.scss */
 .caption {
   font-size: 1.1 em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* line 151, ../scss/app.scss */
@@ -9867,12 +9868,12 @@ body {
 
 /* line 170, ../scss/app.scss */
 .introtext {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 17px;
     color: #ECECEC;
     line-height: 1.2;
     letter-spacing: .02em;
-    padding-top: 3pt;
+    /* padding-top: 3pt; */
 }
 
 /* line 178, ../scss/app.scss */
@@ -9897,7 +9898,7 @@ button, .button {
 
 /* line 196, ../scss/app.scss */
 button, .button:hover {
-  border-radius: 0px;
+  border-radius: 12px;
   color: #e2e2e2;
   background-color: #62696a;
   transition: all .4s ease-in-out;
