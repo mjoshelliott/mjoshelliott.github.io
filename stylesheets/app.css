@@ -3341,6 +3341,7 @@ button::-moz-focus-inner {
   z-index: 998;
   left: 0;
 }
+
 .clearing-blackout .clearing-close {
   display: block;
 }
@@ -3365,6 +3366,7 @@ button::-moz-focus-inner {
   height: 95%;
   position: relative;
 }
+
 .visible-img img {
   position: absolute;
   left: 50%;
@@ -3376,6 +3378,7 @@ button::-moz-focus-inner {
   transform: translateY(-50%) translateX(-50%);
   max-height: 85%;
   max-width: 85%;
+  animation: fadeIn 1s;
 }
 
 .clearing-caption {
@@ -3482,6 +3485,7 @@ button::-moz-focus-inner {
     text-align: center;
     display: none;
   }
+
   /* line 199, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
   .clearing-assembled .clearing-container .carousel > ul {
     display: inline-block;
@@ -9930,4 +9934,13 @@ button, .button:hover {
   box-sizing: box;
   text-align: center;
 }
+/* fade in animation*/
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;} 
