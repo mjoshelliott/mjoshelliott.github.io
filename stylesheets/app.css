@@ -9913,7 +9913,7 @@ button, .button:hover {
   right: 20px;
   width: 30px;
   border-radius: 20px;
-  background-color: #555;
+  /* background-color: #555; */
   text-align: center;
 }
 
