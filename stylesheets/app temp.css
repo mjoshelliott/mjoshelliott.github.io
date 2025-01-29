@@ -9747,7 +9747,7 @@ p {
 /* line 50, ../scss/app.scss */
 body {
   color: #444;
-  background-color: #2d3639;
+  background-color: #f2f1ed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -9804,7 +9804,7 @@ body {
 .hero.primary {
   padding: 20px 0 10px 0;
   background-color: #2d3639;
-  border-bottom: 1px solid dimgray;
+  border-bottom: 1px solid white;
 }
 /* line 106, ../scss/app.scss */
 .hero.primary h1 {
@@ -9910,6 +9910,15 @@ button, .button:hover {
   background-color: #62696a;
   transition: all .4s ease-in-out;
 }
+/*temporary message */
+
+global-message {
+  display: flex;
+  align-items: center;
+  height:auto;
+  background: #293235;
+}
+
 
 /* line 204, ../scss/app.scss */
 .clearing-close {
